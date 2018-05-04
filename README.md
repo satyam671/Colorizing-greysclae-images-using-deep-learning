@@ -9,7 +9,36 @@ Automatic colorization of gray-scale images using deep learning is a technique t
 
 Automatic colorization techniques using ConvNet finds applications in various domains such as astronomy, electron microscopy, and archaeology. Conventional approach to achieve colorization included regression-based model, graph cut algorithm etc. Proposed model is a classification based technique but uses regression model as the base line model. Designed system consists of training and testing phases. Feature extraction and pixel-mapping from the input coloured image results in training of the system. In the testing phase the system is provided with greyscale input images to check the accuracy of colorization of these images. This technique can be used to eliminate the need of expensive image transferring equipments for astronomical images and to speed up the process of conversion of legacy images to modern coloured images, thus reducing manual effort needed by utilizing deep learning techniques.
 
+![our_net](https://user-images.githubusercontent.com/36199181/39629949-721b3c72-4fcb-11e8-9e2d-d60f7ea99c48.png)
 
+# Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+# Prerequisites
+what things you need to install the software.
+I have used the following in this project.
+
+1.Python 3.5
+2.Tensorflow version 1.4.0
+3.Keras version 2.0.8
+4.skimage
+5.numpy 
+
+# Hardware and OS
+I have used ubuntu 16.04 LTS and NVIDIA GEFORCE 940M graphics processing unit for training of the model.
+
+# Dataset Used
+Due to hardware limitations, the CNN Model is trained on a very specific and small dataset containing limited images of male humans. The dataset contains a total of 175 images out of which 160 are the training images and 15 are test images.
+The model produces satisfactory results corresponding to this dataset but runs equally well if the dataset is large (having all types of images both in categories and in quantity) and generates excellent results.
+
+# Installations
+1.Tensorflow
+Refer to https://www.tensorflow.org/install/install_linux
+
+2.Keras
+Refer to https://keras.io/#installation
+
+# Results
 
 
 
