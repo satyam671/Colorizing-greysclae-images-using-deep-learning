@@ -19,9 +19,13 @@ what things you need to install the software.
 I have used the following in this project.
 
 1.Python 3.5
+
 2.Tensorflow version 1.4.0
+
 3.Keras version 2.0.8
+
 4.skimage
+
 5.numpy 
 
 # Hardware and OS
@@ -39,6 +43,7 @@ Refer to https://www.tensorflow.org/install/install_linux
 Refer to https://keras.io/#installation
 
 # Results
+![result1](https://user-images.githubusercontent.com/36199181/39631856-0bb9051c-4fd1-11e8-8524-a159b32aedaa.png)
 
 
 
